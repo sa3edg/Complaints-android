@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- main menu Items -->
+    <string name="app_name">تطبيق إصلاح لخدمات الأعطال</string>
+    <string name="main_menu_title">القائمه الرئيسيه</string>
+    <string name="main_menu_unvi_title">جامعة الإمام محمد بن سعود الإسلامية</string>
+    <string name="main_menu_app_title">تطبيق إصلاح لخدمة البلاغات و الأعطال</string>
+    <string name="my_complaint_btn">بلاغاتي</string>
+    <string name="new_complaint_btn">بلاغ جديد</string>
+    <string name="saved_complaint_btn">مسودة البلاغات</string>
+    <string name="setting_btn">الإعدادات</string>
+    <string name="rate_btn">تقييم التطبيق</string>
+    <string name="about_btn">عن التطبيق</string>
+    
+    <!-- main menu footer bottons -->
+    <string name="unv_about">عن الجامعه</string>
+    <string name="unv_rights">حقوق الملكيه</string>
+    
+    <!-- add complain view -->
+    <string name="title_txt">الوصف</string>
+    <string name="area_txt">الجهه</string>
+    <string name="area_sel_title">الجهه</string>
+    <string-array name="areas_arrays">
+        <item>اداره الجامعه</item>
+        <item>اداره الجامعه</item>
+    </string-array>
+    <string name="attachment_txt">المرفقات</string>
+    <string name="use_current_location_txt">الموقع الحالي</string>
+    <string name="location_desc__txt">معالم المكان</string>
+    <string name="current_location_txt">معالم المكان</string>
+    <string name="send_btn">ارسل</string>
+    <string name="save_btn">مسودة</string>
+    <string name="file_browser_title">ارفاق ملف</string>
+    <string name="capture_photo_title">التقاط صوره</string>
+    <string name="capture_video_title">تسجيل فيديو</string>
+    <string name="attachment_title">استعراض المرفقات</string>
+    <string name="saved_succeed">تم حفظ البلاغ بنجاح</string>
+    <string name="sent_succeed">تم ارسال البلاغ بنجاح</string>
+    <string name="connection_error">حدث خطأ ما يرجي التأكد من خدمة الانترنت واعادة المحاولة</string>
+    <string name="edit_complaint_title">تعديل البلاغ</string>
+    <string name="save_complaint_msg">لا يتوفر اتصال حاليا، برجاء حفظ البلاغ كمسودة للإرسالة لاحقا</string>
+    <string name="empty_complaint_title">رجاء التأكد من  إدخال عنوان  للبلاغ</string>
+    <string name="edit_complaint_save_btn">تحديث البلاغ</string>
+    <string name="empty_complaint_comment">رجاء التأكد من  إدخال التعليق</string>
+    
+    <!-- saved complain details view -->
+    <string name="complaint_number_txt">الوصف</string>
+    <string name="complaint_desc_txt">الوصف</string>
+    <string name="complaint_target_txt">الوصف</string>
+    <string name="complaint_date_txt">الوصف</string>
+    <string name="complaint_status_txt">الوصف</string>
+    <string name="complaint_reason_txt">الوصف</string>
+    <string name="complaint_comment_txt">الوصف</string>
+    <string name="delete_complaint_title">حذف بلاغ</string>
+    <string name="delete_complaint_alert">هل تريد حقآ حذف البلاغ</string>
+    
+    <!-- my complain details view -->
+    <string name="my_complaint_number_txt">رقم البلاغ</string>
+    <string name="my_complaint_desc_txt">وصف البلاغ</string>
+    <string name="my_complaint_target_txt">الجهة المختصة</string>
+    <string name="my_complaint_date_txt">تاريخ البلاغ</string>
+    <string name="my_complaint_status_txt">حالة البلاغ</string>
+    <string name="my_complaint_reason_txt">السبب</string>
+    <string name="my_complaint_comment_txt">التعليق</string>
+    <string name="send_comp_btn">ارسل</string>
+    <string name="send_ccomment_succeed">تم اضافة التعليق بنجاح</string>
+    <string name="last_update_date">أخر تحديث</string>
+    
+    <!-- sliding Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >الرئيسيه</item>
+        <item >بلاغ جديد</item>
+        <item >بلاغاتي</item>
+        <item >مسودة البلاغات</item>
+        <item >الإعدادات</item>
+        <item >تقييم التطبيق</item>
+    </string-array>
+    
+    <!--rate view -->
+    <string name="rate_title">تقيم التطبيق</string>
+    <string name="rate_text">ساعدنا في تحسين التطبيق من خلال مساهمتك في تقيم التطبيق.لاتنسي تدوين انطباعك. شكرا لك</string>
+    <string name="rate_text_hent">أضف تعليقك هنا</string>
+    <string name="save_rate_btn">حفظ</string>
+    <string name="rating_succeed">تمت عملية التقيم بنجاح شكرا لك</string>
+    
+     <!--about view -->
+    <string name="about_title">عن التطبيق</string>
+    
+    <!--univ about view -->
+    <string name="univ_about_title">عن الجامعة</string>
+    
+    <!--univ rights view -->
+    <string name="univ_rights_title">حقوق الملكية</string>
+    
+    <!--registeration dialog view -->
+    <string name="registeration_title">برجاء إدخال رقم الهاتف</string>
+    <string name="enter_your_number">برجاء إدخال رقم الهاتف</string>
+    
+    <!--activation dialog view -->
+    <string name="activation_title">برجاء إدخال كود التفعيل</string>
+    <string name="enter_your_activation_code">برجاء إدخال كود التفعيل</string>
+    <string name="ok_btn">نعم</string>
+    <string name="cancel_btn">إلغاء</string>
+    
+    <!--favourite dialog view -->
+    <string name="enter_your_number">برجاء إدخال رقم جوالك ومن ثم انتظار كود التفعيل والذى سيرسل لكم برسالة نصية</string>
+    <string name="phone_umber">رقم الهاتف</string>
+    <string name="phone_umber_hint">أدخل رقم الهاتف</string>
+    <string name="fav_save_btn">حفظ</string>
+    <string name="activation_succeed">تم تفعيل رقم هاتفك بنجاح</string>
+     <string name="validation_error">رقم الجوال غير صحيح يرجي التأكد من رقم الهاتف واعاده المحاوله</string>
+    
+    <!--confirmation dialog view -->
+    <string name="save_complaint_dialog_title">حفظ بلاغ</string>
+    <string name="save_complaint_dialog_body">هل تريد حقآ حفظ البلاغ</string>
+    
+    <!--complaint details view -->
+    <string name="complaint_details_title">بيانات البلاغ</string>
+    <!-- sliding List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_new_complaint</item>
+        <item>@drawable/ic_my_complaints</item>
+        <item>@drawable/ic_saved_complaints</item>
+        <item>@drawable/ic_setting</item>
+        <item>@drawable/ic_rate</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="hello">Hello World</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+</resources>

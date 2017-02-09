@@ -1,0 +1,50 @@
+<com.ebttikarat.complaints.gui.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@android:color/transparent" > 
+    
+     <!--  saved complaints Button -->
+    <Button
+        android:id="@+id/btn_saved_complaint"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_saved_complaints"
+        android:text="@string/saved_complaint_btn" />
+    
+	<!--  my complaints Button -->
+    <Button
+        android:id="@+id/btn_my_complaint"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_my_complaint"
+        android:text="@string/my_complaint_btn" />
+    
+    <!--  new complaint Button -->
+    <Button
+        android:id="@+id/btn_new_complaint"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_new_complaint"
+        android:text="@string/new_complaint_btn" />
+    
+    <!--  about Button -->
+    <Button
+        android:id="@+id/btn_about"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_about_app"
+        android:text="@string/about_btn" />
+    
+     <!--  rate Button -->
+    <Button
+        android:id="@+id/btn_rate"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_rate_app"
+        android:text="@string/rate_btn" />
+    
+    <!--  setting Button -->
+    <Button
+        android:id="@+id/btn_setting"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_setting"
+        android:text="@string/setting_btn" />
+
+</com.ebttikarat.complaints.gui.DashboardLayout>

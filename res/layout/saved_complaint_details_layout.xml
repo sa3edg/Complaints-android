@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="10dip">
+
+        <TableLayout
+        android:id="@+id/tabla_complaint_num"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content" 
+        android:layout_weight="0.75"
+        android:layout_marginLeft="5dip">
+
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height" >
+
+            <TextView
+                android:id="@+id/complaintNumber"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:gravity="center"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+
+        <TextView
+            android:id="@+id/complaintNumberTxt"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="0.25"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:text="@string/my_complaint_number_txt"
+            android:textColor="@color/app_components_text_color" />
+    </LinearLayout>
+
+    
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <TableLayout
+        android:id="@+id/tabla_cuerpo"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.75"
+        android:layout_marginLeft="5dip"
+         >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/row_height" 
+            android:layout_weight="0.75">
+
+            <TextView
+                android:id="@+id/complaintTitleValue"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/complaintTitle"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:text="@string/my_complaint_desc_txt"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+        </TableRow>
+
+      <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.75" >
+
+            <TextView
+                android:id="@+id/targetValue"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/targetTitle"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:text="@string/my_complaint_target_txt"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+        </TableRow>
+
+       <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/dateValue"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+            <TextView
+                android:id="@+id/dateTitle"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:text="@string/my_complaint_date_txt"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/statusValue"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/statusTitle"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:text="@string/my_complaint_status_txt"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/reasonValue"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/reasonTitle"
+                android:layout_width="0dip"
+                android:layout_height="50dip"
+                android:layout_weight="0.75"
+                android:background="@drawable/cell_shape"
+                android:padding="5dp"
+                android:text="@string/my_complaint_reason_txt"
+                android:textColor="@color/app_components_text_color"
+                android:textAppearance="?android:attr/textAppearanceMedium" >
+            </TextView>
+        </TableRow>
+    </TableLayout>
+    <TextView
+            android:id="@+id/complaintNumberTxt2"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:layout_gravity="left"
+            android:lines="1"
+            android:textColor="@color/app_components_text_color" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/attachmentCnt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="5dip">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/imgFrame"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 >
+
+                <ImageButton
+                    android:id="@+id/attachmentBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:layout_marginRight="20dip"
+                    android:src="@drawable/ic_attached"
+                    android:clickable="false"
+                    android:background="@drawable/list_selector_holo_light"/>
+
+                <TextView
+                    android:id="@+id/notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:background="@drawable/rounded_border"
+                    android:gravity="center"
+                    android:minWidth="15dp"
+                    android:paddingLeft="1dp"
+                    android:paddingRight="1dp"
+                    android:layout_marginRight="20dip"
+                    android:text="0"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/attachmentTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="40dip"
+                android:gravity="center"
+                android:text="@string/attachment_txt"
+                android:textColor="@color/app_components_text_color" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/currentLocCnt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/currentLocTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/current_location_txt"
+            android:textColor="@color/app_components_text_color" />
+    </RelativeLayout>
+
+   <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginBottom="5dip"
+        android:layout_gravity="fill_horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/currentLocImg"
+            android:layout_width="fill_parent"
+            android:layout_height="150dip"
+            android:layout_centerInParent="true"
+            android:background="@drawable/map" 
+            android:scaleType="fitXY"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+    <Button
+            android:id="@+id/updateComplaint"
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_selector"
+            android:textColor="@color/app_components_text_color"
+            android:text="@string/send_comp_btn" />
+
+</LinearLayout>
+</ScrollView>

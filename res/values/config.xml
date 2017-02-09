@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<integer name="config_activityShortDur">150</integer>
+	<integer name="config_activityDefaultDur">220</integer>
+	<integer name="config_shortAnimTime">200</integer>
+	<integer name="config_mediumAnimTime">400</integer>
+	<integer name="config_longAnimTime">500</integer>
+	<string name="server_url">http://212.138.48.41:8003/CompRest.svc/</string>
+	<string name="add_new_complaint_service_url">AddComplaints</string>
+	<string name="get_units_service_url">GetUnits</string>
+	<string name="add_complaint_attachment_service_url">http://212.138.48.41:8003/api/upload?complaintId=</string>
+	<string name="add_complaint_comment_service_url">AddComment</string>
+	<string name="get_all_complaints_service_url">GetComplaints</string>
+	<string name="get_complaint_service_url">complaints/</string>
+	<string name="rate_service_url">AddRating</string>
+	<string name="page_content_service_url">GetContent</string>
+	<string name="phone_registeration_service_url">RegisterNewPhoneNumber</string>
+	<string name="phone_verification_service_url">VerifyMobile</string>
+</resources>

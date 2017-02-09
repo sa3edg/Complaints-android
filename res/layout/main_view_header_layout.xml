@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    style="@style/MainViewActionBarStyle" >
+
+    <TextView
+        android:id="@+id/mainViewTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:paddingLeft="15dip"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/main_menu_title" 
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/main_menu_title_text_color"/>
+
+</LinearLayout>

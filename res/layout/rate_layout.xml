@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/complaintTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dip"
+        android:gravity="center"
+        android:text="@string/rate_text"
+        android:textColor="@color/app_components_text_color" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dip"
+        android:layout_marginTop="50dip"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:rating="0.0"
+        android:stepSize="1.0" />
+
+    <EditText
+        android:id="@+id/RateComment"
+        android:layout_width="match_parent"
+        android:layout_height="80dip"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dip"
+        android:background="@drawable/edit_text_with_shaps"
+        android:gravity="center"
+        android:hint="@string/rate_text_hent"
+        android:inputType="text"
+        android:lines="3"
+        android:maxLines="5"
+        android:minLines="1"
+        android:paddingRight="2dip"
+        android:textColor="@color/app_components_text_color" />
+
+    <Button
+        android:id="@+id/sendRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_selector"
+        android:hint="@string/rate_text_hent"
+        android:text="@string/save_rate_btn" />
+
+</LinearLayout>

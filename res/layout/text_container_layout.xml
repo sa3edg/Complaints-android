@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:layout_marginTop="20dip"
+            android:layout_marginBottom="30dip">
+
+            <TextView
+                android:id="@+id/complaintTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="@string/app_name"
+                android:textColor="@color/app_components_text_color" />
+
+            <ImageView
+                android:id="@+id/thumbImage"
+                android:layout_width="134dp"
+                android:layout_height="121dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/list_selector_holo_light"
+                android:src="@drawable/ic_text_container" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/textCnt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textSize="20sp"
+                android:gravity="right"
+                android:textColor="@color/app_components_text_color" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>

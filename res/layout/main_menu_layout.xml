@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_menu_bg">
+    	<!-- Include Action Bar -->
+    	<include layout="@layout/main_menu_header_layout"/>
+    	
+    	<!--  Include Fragmented dashboard -->	
+		<include layout="@layout/main_menu_content_layout"/>	
+    	
+		<!--  Include Footer -->
+		<include layout="@layout/main_menu_footer_layout"/>
+</LinearLayout>

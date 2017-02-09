@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/attachmentGridView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:columnWidth="80dp"
+        android:gravity="center"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth" >
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/capture_bottom_bar"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/browseBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/list_selector_holo_light"
+            android:src="@drawable/ic_browse_attachment" 
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/captureImageBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/list_selector_holo_light"
+            android:layout_marginLeft="-5dip"
+            android:layout_marginRight="-5dip"
+            android:src="@drawable/ic_camera_attachment" 
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/captureVideoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/list_selector_holo_light"
+            android:layout_marginRight="-5dip"
+            android:src="@drawable/ic_video_attachment" 
+            android:layout_weight="1"/>
+        <ImageButton
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/list_selector_holo_light"
+            android:src="@drawable/ic_attachment_complete" 
+            android:layout_weight="1"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

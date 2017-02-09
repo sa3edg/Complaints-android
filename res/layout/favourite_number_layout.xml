@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/cnt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        >
+
+        <TextView
+            android:id="@+id/locationDescTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/enter_your_number"
+            android:textColor="@color/app_components_text_color" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_marginTop="30dip">
+
+        <TextView
+            android:id="@+id/phoneNumbertitle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:text="@string/phone_umber"
+            android:textColor="@color/app_components_text_color" />
+
+        <EditText
+            android:id="@+id/numberTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginRight="@dimen/add_complaint_right_margin"
+            android:layout_toLeftOf="@+id/phoneNumbertitle"
+            android:hint="@string/phone_umber_hint"
+            android:textColor="@color/app_components_text_color"
+            android:background="@drawable/edit_text_with_shaps"
+            android:inputType="phone"
+            android:gravity="right"
+            android:digits="0123456789"
+            android:lines="3"
+            android:maxLines="5"
+            android:paddingRight="2dip"
+            android:minLines="1" 
+            />
+    </RelativeLayout>
+    <Button
+            android:id="@+id/saveBtn"
+            android:layout_width="100dip"
+            android:layout_height="40dip"
+            android:textColor="@color/app_components_text_color"
+            android:layout_marginTop="50dip"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_selector"
+            android:text="@string/fav_save_btn" />
+</LinearLayout>

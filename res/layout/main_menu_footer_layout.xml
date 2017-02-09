@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainMenuFooterBar" >
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/line_sep" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/aboutUnv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="-4.5dp"
+            android:layout_marginRight="-4.5dp"
+            android:layout_marginTop="-4.5dp"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/list_selector_holo_light"
+            android:drawableRight="@drawable/ic_footer_about"
+            android:gravity="center_vertical"
+            android:text="@string/unv_about"
+            android:textColor="@color/app_components_text_color" 
+            android:drawablePadding="5dip"
+            android:layout_marginLeft="30dip"/>
+
+        <ImageView
+            android:layout_width="1dip"
+            android:layout_height="match_parent"
+            android:background="@drawable/vertical_line" 
+            android:layout_marginTop="10dip"
+            android:layout_marginBottom="10dip"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/unvRIghts"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="-4.5dp"
+            android:layout_marginLeft="-4.5dp"
+            android:layout_marginTop="-4.5dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/list_selector_holo_light"
+            android:drawableRight="@drawable/ic_footer_copy_rights"
+            android:drawablePadding="5dip"
+            android:gravity="center_vertical"
+            android:text="@string/unv_rights"
+            android:layout_marginRight="20dip"
+            android:textColor="@color/app_components_text_color" />
+    </RelativeLayout>
+
+</LinearLayout>
